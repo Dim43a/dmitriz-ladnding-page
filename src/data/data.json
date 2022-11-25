@@ -1,0 +1,167 @@
+{
+  "Header": {
+    "title": "Trust us with your stuff",
+    "paragraph": "Get in touch and receive a professional logistics services offer at affordable prices today"
+  },
+  "About": {
+    "paragraph": "The company has many years of experience and a large number of satisfied customers who turn to us for services again and again. We not only guarantee safety and integrity, but also offer additional cargo insurance. One of our most important advantages is the speed of order fulfillment from the moment of receive your application.",
+    "Why": [
+      "Over 20 years of experience",
+      "We work 24/7",
+      "Cargo warranty",
+      "Friendly prices"
+    ],
+    "Why2": [
+      "3 types of transport available",
+      "Accurate loaders"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-home",
+      "name": "Moving",
+      "text": "Providing quality and careless moving service without any extra fee or risks."
+    },
+    {
+      "icon": "fa fa-trash",
+      "name": "Garbage Removal",
+      "text": "Garbage removal of any type and size"
+    },
+    {
+      "icon": "fa fa-shopping-cart",
+      "name": "Delivery from the store",
+      "text": "Furniture, Kitchen Appliances or any kind of goods delivery from the store"
+    },
+    {
+      "icon": "fa fa-globe",
+      "name": "European logistic service",
+      "text": "Opportunity to make a cross country moving or delivery"
+    },
+    {
+      "icon": "fa fa-wrench",
+      "name": "Small furniture installation",
+      "text": "Possibility to install furniture after delivery"
+    },
+    {
+      "icon": "fa fa-archive",
+      "name": "Packing and preparation for every moving or delivery",
+      "text": "Possibility to install furniture after delivery"
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "images/feedback/01.jpg",
+      "text": "Great Job! Highly recommend.",
+      "name": "John Doe"
+    },
+    {
+      "img": "images/feedback/02.jpg",
+      "text": "Thank you for you patience and accuracy.",
+      "name": "Alex Smith"
+    },
+    {
+      "img": "images/feedback/03.jpg",
+      "text": "Five stars!",
+      "name": "Mark Elon"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "Estonia, Tallinn, Tartu mnt 121",
+    "phone": "+372 5555 5555",
+    "email": "veo.pro@gmail.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-bolt",
+      "title": "Fast service",
+      "text": "Get contact now and get professional service today"
+    },
+    {
+      "icon": "fa fa-thumbs-o-up",
+      "title": "Politeness and professionalism",
+      "text": "High experienced workers will provide logistic service with quality guarantee"
+    },
+    {
+      "icon": "fa fa-diamond",
+      "title": "Loaders and cargo insurance",
+      "text": "Loaders and insurance of your load are included in the price"
+    },
+    {
+      "icon": "fa fa-pencil-square-o",
+      "title": "Individual approach",
+      "text": "Each client is unique, as is the approach to him."
+    }
+  ]
+}
