@@ -33,7 +33,6 @@ export const Contact = (props) => {
             )
     }
     return (
-        <div>
             <div id='contact'>
                 <div className='container'>
                     <div className='col-md-8'>
@@ -130,20 +129,6 @@ export const Contact = (props) => {
                                             <p className='help-block text-danger'></p>
                                         </div>
                                     </div>
-                                    {/*<div className='col-md-6'>*/}
-                                    {/*  <div className='form-group'>*/}
-                                    {/*    <input*/}
-                                    {/*        type='date'*/}
-                                    {/*        id='date'*/}
-                                    {/*        name='date'*/}
-                                    {/*        className='form-control'*/}
-                                    {/*        placeholder='Date'*/}
-                                    {/*        required*/}
-                                    {/*        onChange={handleChange}*/}
-                                    {/*    />*/}
-                                    {/*    <p className='help-block text-danger'></p>*/}
-                                    {/*  </div>*/}
-                                    {/*</div>*/}
                                     <div className='col-md-6'>
                                         <div className='form-group'>
                                             <input
@@ -158,19 +143,6 @@ export const Contact = (props) => {
                                             <p className='help-block text-danger'></p>
                                         </div>
                                     </div>
-                                    {/*<div className='col-md-6'>*/}
-                                    {/*  <div className='form-group'>*/}
-                                    {/*    <select id="service" name="service" className='form-control'>*/}
-                                    {/*      <option value="" disabled selected>Pick a service</option>*/}
-                                    {/*      <option value="moving">Moving</option>*/}
-                                    {/*      <option value="garbage">Garbage removal</option>*/}
-                                    {/*      <option value="furniture">Furniture delivery</option>*/}
-                                    {/*      <option value="fragile">Fragile delivery</option>*/}
-                                    {/*      <option value="huge">Heavy load</option>*/}
-                                    {/*      <option value="other">Other</option>*/}
-                                    {/*    </select>*/}
-                                    {/*  </div>*/}
-                                    {/*</div>*/}
                                 </div>
                                 <div className='form-group'>
                   <textarea
@@ -218,41 +190,7 @@ export const Contact = (props) => {
                             </p>
                         </div>
                     </div>
-                    {/*<div className='col-md-12'>*/}
-                    {/*  <div className='row'>*/}
-                    {/*    <div className='social'>*/}
-                    {/*      <ul>*/}
-                    {/*        <li>*/}
-                    {/*          <a href={props.data ? props.data.facebook : '/'}>*/}
-                    {/*            <i className='fa fa-facebook'></i>*/}
-                    {/*          </a>*/}
-                    {/*        </li>*/}
-                    {/*        <li>*/}
-                    {/*          <a href={props.data ? props.data.twitter : '/'}>*/}
-                    {/*            <i className='fa fa-twitter'></i>*/}
-                    {/*          </a>*/}
-                    {/*        </li>*/}
-                    {/*        <li>*/}
-                    {/*          <a href={props.data ? props.data.youtube : '/'}>*/}
-                    {/*            <i className='fa fa-youtube'></i>*/}
-                    {/*          </a>*/}
-                    {/*        </li>*/}
-                    {/*      </ul>*/}
-                    {/*    </div>*/}
-                    {/*  </div>*/}
-                    {/*</div>*/}
                 </div>
             </div>
-            {/*<div id='footer'>*/}
-            {/*  <div className='container text-center'>*/}
-            {/*    <p>*/}
-            {/*      &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}*/}
-            {/*      <a href='http://www.templatewire.com' rel='nofollow'>*/}
-            {/*        TemplateWire*/}
-            {/*      </a>*/}
-            {/*    </p>*/}
-            {/*  </div>*/}
-            {/*</div>*/}
-        </div>
     )
 }

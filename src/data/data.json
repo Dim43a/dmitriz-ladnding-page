@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "Trust us with your stuff",
+    "title": "Get what you wanted just on time",
     "paragraph": "Get in touch and receive a professional logistics services offer at affordable prices today"
   },
   "About": {
@@ -16,6 +16,26 @@
       "Accurate loaders"
     ]
   },
+  "Plan": [
+    {
+      "text": "Fill the form or call us"
+    },
+    {
+      "text": "Price calculation"
+    },
+    {
+      "text": "Application processing"
+    },
+    {
+      "text": "Cargo delivery"
+    },
+    {
+      "text": "Cargo receiving"
+    },
+    {
+      "text": "Client approval"
+    }
+  ],
   "Gallery": [
     {
       "title": "Project Title",
@@ -110,6 +130,11 @@
       "img": "images/feedback/03.jpg",
       "text": "Five stars!",
       "name": "Mark Elon"
+    },
+    {
+      "img": "images/feedback/04.jpg",
+      "text": "I was very surprised that cargo packing is included to the price, pleasant bonus!",
+      "name": "Megan Fox"
     }
   ],
   "Team": [
@@ -157,11 +182,6 @@
       "icon": "fa fa-diamond",
       "title": "Loaders and cargo insurance",
       "text": "Loaders and insurance of your load are included in the price"
-    },
-    {
-      "icon": "fa fa-pencil-square-o",
-      "title": "Individual approach",
-      "text": "Each client is unique, as is the approach to him."
     }
   ]
 }

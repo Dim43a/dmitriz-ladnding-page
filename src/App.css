@@ -4,13 +4,21 @@
     margin: 0;
     padding: 100px 10px;
   }
+  #contact {
+    width: 110%;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   .carousel-wrapper {
     width: 100%;
   }
+  .slider-container {
+    max-height: 330px;
+  }
   .feature-card {
     border-radius: 20px;
-    height: 40%;
-    padding: 10px;
+    height: 35%;
+    padding: 20px;
     margin-bottom: 30px;
   }
   #menu.navbar-default .navbar-nav .test {
@@ -53,10 +61,10 @@
     width: 111%;
     padding-top: 100px;
   }
+
   #services,
   #testimonials,
   #team,
-  #contact,
   #footer {
     width: 111%;
   }
@@ -85,6 +93,6 @@
     text-align: center;
   }
   #portfolio {
-    width: 110%;
+    width: 80%;
   }
 }
