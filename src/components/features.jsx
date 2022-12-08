@@ -1,3 +1,5 @@
+import HoverVideoPlayer from "react-hover-video-player";
+
 export const Features = (props) => {
     return (
         <div id='features' className='text-center'>
@@ -11,10 +13,17 @@ export const Features = (props) => {
                             <div key={`${d.title}-${i}`} className='col-md-4'>
                                 <div className="feature-card">
                                     {' '}
-                                    <i className={d.icon}></i>
+                                    <HoverVideoPlayer
+                                        videoSrc={d.img}
+                                        loadingOverlay={
+                                            <div className="loading-overlay">
+                                                <div className="loading-spinner" />
+                                            </div>
+                                        }
+                                    />
                                     <div className="feature-card-text">
-                                        <h3>{d.title}</h3>
-                                        <p>{d.text}</p>
+                                        <h3 className="blja2">{d.title}</h3>
+                                        <p className="blja">{d.text}</p>
                                     </div>
                                 </div>
                             </div>

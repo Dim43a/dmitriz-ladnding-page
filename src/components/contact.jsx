@@ -33,164 +33,167 @@ export const Contact = (props) => {
             )
     }
     return (
+        <div>
             <div id='contact'>
                 <div className='container'>
-                    <div className='col-md-8'>
+                    <div className='col-md-12'>
                         <div className='row'>
-                            <div className='section-title'>
-                                <h2>Fill the form and get 30% discount</h2>
-                                <p>
-                                    Please fill out the form below to send us an email and we will
-                                    get back to you as soon as possible.
-                                </p>
+                            <div className="form-container">
+                                <div className='section-title'>
+                                    <h2>Fill the form and get 30% discount</h2>
+                                    <p>
+                                        Please fill out the form below to send us an email and we will
+                                        get back to you as soon as possible.
+                                    </p>
+                                </div>
+                                <form name='sentMessage' onSubmit={handleSubmit}>
+                                    <div className='row'>
+                                        <div className='col-md-6'>
+                                            <div className='form-group'>
+                                                <input
+                                                    type='text'
+                                                    id='from'
+                                                    name='from'
+                                                    aria-label='text'
+                                                    className='form-control'
+                                                    placeholder='From:'
+                                                    required
+                                                    onChange={handleChange}
+                                                />
+                                                <p className='help-block text-danger'></p>
+                                            </div>
+                                        </div>
+                                        <div className='col-md-6'>
+                                            <div className='form-group'>
+                                                <input
+                                                    type='text'
+                                                    id='to'
+                                                    name='to'
+                                                    aria-label='to'
+                                                    className='form-control'
+                                                    placeholder='To:'
+                                                    required
+                                                    onChange={handleChange}
+                                                />
+                                                <p className='help-block text-danger'></p>
+                                            </div>
+                                        </div>
+                                        <div className='col-md-6'>
+                                            <div className='form-group'>
+                                                <input
+                                                    type='text'
+                                                    id='weight'
+                                                    name='weight'
+                                                    aria-label='weight'
+                                                    className='form-control'
+                                                    placeholder='Weight'
+                                                    onChange={handleChange}
+                                                />
+                                                <p className='help-block text-danger'></p>
+                                            </div>
+                                        </div>
+                                        <div className='col-md-6'>
+                                            <div className='form-group'>
+                                                <input
+                                                    type='text'
+                                                    id='size'
+                                                    name='size'
+                                                    aria-label='size'
+                                                    className='form-control'
+                                                    placeholder='Size m³'
+                                                    required
+                                                    onChange={handleChange}
+                                                />
+                                                <p className='help-block text-danger'></p>
+                                            </div>
+                                        </div>
+                                        <div className='col-md-6'>
+                                            <div className='form-group'>
+                                                <input
+                                                    type='email'
+                                                    id='email'
+                                                    name='email'
+                                                    aria-label='email'
+                                                    className='form-control'
+                                                    placeholder='Email'
+                                                    required
+                                                    onChange={handleChange}
+                                                />
+                                                <p className='help-block text-danger'></p>
+                                            </div>
+                                        </div>
+                                        <div className='col-md-6'>
+                                            <div className='form-group'>
+                                                <input
+                                                    type='tel'
+                                                    id='tel'
+                                                    name='tel'
+                                                    aria-label='tel'
+                                                    className='form-control'
+                                                    placeholder='Telephone'
+                                                    required
+                                                    onChange={handleChange}
+                                                />
+                                                <p className='help-block text-danger'></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='form-group'>
+                                      <textarea
+                                          name='message'
+                                          id='message'
+                                          className='form-control'
+                                          rows='4'
+                                          aria-label='message'
+                                          placeholder='Describe your cargo or service'
+                                          required
+                                          onChange={handleChange}
+                                      ></textarea>
+                                        <p className='help-block text-danger'></p>
+                                    </div>
+                                    <div id='success'></div>
+                                    <button type='submit' className='btn btn-custom btn-lg'>
+                                        Get Offer
+                                    </button>
+                                </form>
                             </div>
-                            <form name='sentMessage' onSubmit={handleSubmit}>
-                                <div className='row'>
-                                    <div className='col-md-6'>
-                                        <div className='form-group'>
-                                            <input
-                                                type='text'
-                                                id='from'
-                                                name='from'
-                                                className='form-control'
-                                                placeholder='From:'
-                                                required
-                                                onChange={handleChange}
-                                            />
-                                            <p className='help-block text-danger'></p>
-                                        </div>
-                                    </div>
-                                    <div className='col-md-6'>
-                                        <div className='form-group'>
-                                            <input
-                                                type='text'
-                                                id='to'
-                                                name='to'
-                                                className='form-control'
-                                                placeholder='To:'
-                                                required
-                                                onChange={handleChange}
-                                            />
-                                            <p className='help-block text-danger'></p>
-                                        </div>
-                                    </div>
-                                    <div className='col-md-6'>
-                                        <div className='form-group'>
-                                            <input
-                                                type='text'
-                                                id='weight'
-                                                name='weight'
-                                                className='form-control'
-                                                placeholder='Weight'
-                                                onChange={handleChange}
-                                            />
-                                            <p className='help-block text-danger'></p>
-                                        </div>
-                                    </div>
-                                    <div className='col-md-6'>
-                                        <div className='form-group'>
-                                            <input
-                                                type='text'
-                                                id='size'
-                                                name='size'
-                                                className='form-control'
-                                                placeholder='Size m³'
-                                                required
-                                                onChange={handleChange}
-                                            />
-                                            <p className='help-block text-danger'></p>
-                                        </div>
-                                    </div>
-                                    {/*<div className='col-md-6'>*/}
-                                    {/*  <div className='form-group'>*/}
-                                    {/*    <input*/}
-                                    {/*      type='text'*/}
-                                    {/*      id='name'*/}
-                                    {/*      name='name'*/}
-                                    {/*      className='form-control'*/}
-                                    {/*      placeholder='Name'*/}
-                                    {/*      required*/}
-                                    {/*      onChange={handleChange}*/}
-                                    {/*    />*/}
-                                    {/*    <p className='help-block text-danger'></p>*/}
-                                    {/*  </div>*/}
-                                    {/*</div>*/}
-                                    <div className='col-md-6'>
-                                        <div className='form-group'>
-                                            <input
-                                                type='email'
-                                                id='email'
-                                                name='email'
-                                                className='form-control'
-                                                placeholder='Email'
-                                                required
-                                                onChange={handleChange}
-                                            />
-                                            <p className='help-block text-danger'></p>
-                                        </div>
-                                    </div>
-                                    <div className='col-md-6'>
-                                        <div className='form-group'>
-                                            <input
-                                                type='tel'
-                                                id='tel'
-                                                name='tel'
-                                                className='form-control'
-                                                placeholder='Telephone'
-                                                required
-                                                onChange={handleChange}
-                                            />
-                                            <p className='help-block text-danger'></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='form-group'>
-                  <textarea
-                      name='message'
-                      id='message'
-                      className='form-control'
-                      rows='4'
-                      placeholder='Describe your cargo or service'
-                      required
-                      onChange={handleChange}
-                  ></textarea>
-                                    <p className='help-block text-danger'></p>
-                                </div>
-                                <div id='success'></div>
-                                <button type='submit' className='btn btn-custom btn-lg'>
-                                    Send Message
-                                </button>
-                            </form>
                         </div>
                     </div>
-                    <div className='col-md-3 col-md-offset-1 contact-info'>
-                        <div className='contact-item'>
-                            <h3>Contact Info</h3>
-                            <p>
-                <span>
-                  <i className='fa fa-map-marker'></i> Address
-                </span>
-                                {props.data ? props.data.address : 'loading'}
-                            </p>
-                        </div>
-                        <div className='contact-item'>
-                            <p>
-                <span>
-                  <i className='fa fa-phone'></i> Phone
-                </span>{' '}
-                                {props.data ? props.data.phone : 'loading'}
-                            </p>
-                        </div>
-                        <div className='contact-item'>
-                            <p>
-                <span>
-                  <i className='fa fa-envelope-o'></i> Email
-                </span>{' '}
-                                {props.data ? props.data.email : 'loading'}
-                            </p>
+                    <div className='col-md-12'>
+                        <div className='row'>
+                            <div className='social'>
+                                <ul>
+                                    <li>
+                                        <p className="blja">
+                                            <span>
+                                              <i className='fa fa-map-marker'></i>
+                                            </span>
+                                            {props.data ? props.data.address : 'loading'}
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p className="blja">
+                                            <span>
+                                              <i className='fa fa-phone'></i>
+                                            </span>{' '}
+                                            {props.data ? props.data.phone : 'loading'}
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p className="blja">
+                                            <span>
+                                              <i className='fa fa-envelope-o'></i>
+                                            </span>{' '}
+                                            {props.data ? props.data.email : 'loading'}
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+        </div>
     )
 }

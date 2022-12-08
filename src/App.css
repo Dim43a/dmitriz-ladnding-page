@@ -1,27 +1,22 @@
 @media screen and (max-width: 400px) {
   #features {
-    width: 111%;
     margin: 0;
     padding: 100px 10px;
   }
   #contact {
-    width: 110%;
     padding-left: 40px;
     padding-right: 40px;
   }
-  .carousel-wrapper {
-    width: 100%;
-  }
-  .slider-container {
-    max-height: 330px;
-  }
+
   .feature-card {
     border-radius: 20px;
-    height: 35%;
     padding: 20px;
     margin-bottom: 30px;
   }
-  #menu.navbar-default .navbar-nav .test {
+  #workflow{
+    margin: 0;
+  }
+  #menu.navbar-default .navbar-nav .action-button {
     width: 50%;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
@@ -29,19 +24,13 @@
     background-color: #5ca9fb;
     background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
     letter-spacing: 1px;
-    padding: 14px 34px 14px 20px;
+    padding: 14px 34px 14px 22px;
     margin: 0;
-    font-size: 15px;
-    font-weight: 500;
-    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 400;
     transition: all 0.5s linear;
   }
-  .intro {
-    width: 110%;
-  }
-  .slider-container {
-    width: 80%;
-  }
+
   #menu.navbar-default .navbar-nav .call {
     width: 50%;
     font-family: "Raleway", sans-serif;
@@ -58,25 +47,18 @@
     transition: all 0.5s linear;
   }
   #about {
-    width: 111%;
     padding-top: 100px;
   }
 
-  #services,
-  #testimonials,
-  #team,
-  #footer {
-    width: 111%;
-  }
-  #testimonials {
-    margin: 0;
-  }
   #services {
-    width: 111%;
     padding: 100px 0 100px;
     background: #EBEEF2;
     color: #000000;
     margin: 0;
+  }
+  .form-container {
+    margin: auto;
+    width: 100%;
   }
   .next-button-arrow {
     display: none;
@@ -91,8 +73,5 @@
     padding-top: 311px;
     padding-bottom: 200px;
     text-align: center;
-  }
-  #portfolio {
-    width: 80%;
   }
 }

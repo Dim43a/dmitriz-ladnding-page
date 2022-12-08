@@ -58,22 +58,12 @@ export const Navigation = () => {
                             </a>
                         </li>
                         <li>
-                            <a href='#services' className='page-scroll'>
-                                Services
+                            <a href='#workflow' className='page-scroll'>
+                                Workflow
                             </a>
                         </li>
                         <li>
-                            <a href='#portfolio' className='page-scroll'>
-                                Gallery
-                            </a>
-                        </li>
-                        <li>
-                            <a href='#testimonials' className='page-scroll'>
-                                Testimonials
-                            </a>
-                        </li>
-                        <li>
-                            <a href='#contact' className='test'>
+                            <a href='#contact' className='action-button'>
                                 Get offer
                             </a>
                         </li>

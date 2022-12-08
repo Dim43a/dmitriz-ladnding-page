@@ -12,7 +12,8 @@ export const GalleryS = () => {
                     <div className='section-title'>
                     </div>
                     <div className="col-md-12">
-                        <Carousel renderArrowPrev={(clickHandler, hasPrev, labelPrev) =>
+                        <Carousel
+                            renderArrowPrev={(clickHandler, hasPrev, labelPrev) =>
                             hasPrev && (
                                 <button onClick={clickHandler} className="prev-button-arrow">
                                     <AiFillCaretLeft/>
