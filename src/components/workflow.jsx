@@ -4,12 +4,10 @@ export const Workflow = (props) => {
     return (
         <div id='workflow'>
             <h2>Work Flow</h2>
-            <div className="about-us-container">
+            <div className="workflow-container">
                 <div className='container'>
                     <div className='row'>
                         {' '}
-                        <div className="workflow-container">
-
                             <ol>
                                 {props.data ?
                                     props.data.map((d, i) => (
@@ -23,8 +21,6 @@ export const Workflow = (props) => {
                                         </div>
                                     )) : "Loading..."}
                             </ol>
-                        </div>
-
                     </div>
                 </div>
             </div>

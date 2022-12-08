@@ -16,6 +16,12 @@
   #workflow{
     margin: 0;
   }
+
+  .workflow-container{
+    width: 80%;
+    padding-left: 50px;
+  }
+
   #menu.navbar-default .navbar-nav .action-button {
     width: 50%;
     font-family: "Raleway", sans-serif;
