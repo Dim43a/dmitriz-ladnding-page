@@ -24,7 +24,7 @@ export const Features = (props) => {
                                         />
                                     <div className="feature-card-text">
                                         <h3 className="feature-header">{d.title}</h3>
-                                        <p className="blja">{d.text}</p>
+                                        <p className="wrapped-text">{d.text}</p>
                                     </div>
                                 </div>
                             </div>

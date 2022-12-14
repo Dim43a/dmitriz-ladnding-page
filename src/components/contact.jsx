@@ -162,7 +162,7 @@ export const Contact = (props) => {
                         <div className='social'>
                             <ul>
                                 <li>
-                                    <p className="blja">
+                                    <p className="wrapped-text">
                                             <span>
                                               <i className='fa fa-map-marker'></i>
                                             </span>
@@ -170,7 +170,7 @@ export const Contact = (props) => {
                                     </p>
                                 </li>
                                 <li>
-                                    <p className="blja">
+                                    <p className="wrapped-text">
                                             <span>
                                               <i className='fa fa-phone'></i>
                                             </span>{' '}
@@ -178,7 +178,7 @@ export const Contact = (props) => {
                                     </p>
                                 </li>
                                 <li>
-                                    <p className="blja">
+                                    <p className="wrapped-text">
                                             <span>
                                               <i className='fa fa-envelope-o'></i>
                                             </span>{' '}
