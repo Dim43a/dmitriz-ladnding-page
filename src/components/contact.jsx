@@ -40,12 +40,6 @@ export const Contact = (props) => {
                         <div className='col-md-12'>
                             <div className='row'>
                                 <div className="form-container">
-                                    <div className='section-title'>
-                                        <p>
-                                            Please fill out the form below to send us an email and we will
-                                            get back to you as soon as possible.
-                                        </p>
-                                    </div>
                                     <form name='sentMessage' onSubmit={handleSubmit}>
                                         <div className='row'>
                                             <div className='col-md-6'>
@@ -188,7 +182,7 @@ export const Contact = (props) => {
                                             <span>
                                               <i className='fa fa-envelope-o'></i>
                                             </span>{' '}
-                                        {props.data ? props.data.email : 'loading'}
+                                        <a href="mailto:max.veo.pro@gmail.com">{props.data ? props.data.email : 'loading'}</a>
                                     </p>
                                 </li>
                             </ul>

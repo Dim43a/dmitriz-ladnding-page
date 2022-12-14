@@ -1,4 +1,3 @@
-import HoverVideoPlayer from "react-hover-video-player";
 
 export const Workflow = (props) => {
     return (
@@ -12,7 +11,7 @@ export const Workflow = (props) => {
                                 {props.data ?
                                     props.data.map((d, i) => (
                                         <div className='col-md-6 col-md-4'>
-                                            <div className="test">
+                                            <div className="workflow-item">
                                                 <li></li>
                                                 <div className="flow-text">
                                                     <h3>{props.data[i].text}</h3>

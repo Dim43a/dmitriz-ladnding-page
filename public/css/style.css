@@ -261,6 +261,7 @@ a:focus,
 .intro p {
   color: #fff;
   font-size: 24px;
+  line-height: 32px;
   font-weight: 500;
   margin: 0 auto 60px;
 }
@@ -340,9 +341,11 @@ h3{
 .blja {
   font-size: 20px;
   font-weight: 500;
+  /*text-decoration: none;*/
+  color: black;
 }
 
-.blja2{
+.feature-header{
   font-size: 24px;
   font-weight: bold;
 }
@@ -362,6 +365,7 @@ h3{
   margin: auto;
 }
 #about h3 {
+  line-height: 32px;
   font-size: 24px;
   font-weight: 500;
   margin: 0 0 20px;
@@ -445,7 +449,7 @@ h3{
 }
 
 #contact h2::after {
-  position: absolute;
+  /*position: absolute;*/
   content: "";
   background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
   height: 4px;
@@ -454,6 +458,7 @@ h3{
   margin-left: -30px;
   left: 50%;
 }
+
 #contact .section-title h2::after {
   position: absolute;
   content: "";
@@ -471,7 +476,8 @@ h3{
   font-weight: 400;
 }
 #contact form {
-  background-color: rgba(0, 0, 0, 0.3);
+  /*background-color: rgba(0, 0, 0, 0.3);*/
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
   border-radius: 20px;
   padding: 50px;
 }
@@ -500,7 +506,7 @@ label {
   display: block;
   width: 100%;
   padding: 6px 12px;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 1.42857143;
   color: #444;
   background-color: #fff;
@@ -581,11 +587,12 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
-.test{
+.workflow-item{
   height: 90%;
+  margin-top: 50px;
   margin: 10px;
-  padding-left: 10px;
   display: grid;
+  /*justify-items: center;*/
 }
 
 .flow-text {
@@ -594,10 +601,11 @@ label {
   bottom: 60px;
 }
 .workflow-container {
-  width: 80%;
+  width: fit-content;
   background-color: #FFFFFF;
   border-radius: 20px;
-  padding: 25px 0 0 25px;
+  padding-top: 50px;
+  padding-left: 50px;
   margin: auto;
 }
 
@@ -612,10 +620,11 @@ ol {
   padding: 0;
 }
 ol li {
-  color: #000000;
-  color: rgba(0, 0, 0, 0.1);
+  /*color: #000000;*/
+  color: rgba(0, 0, 0, 0.2);
   counter-increment: my-awesome-counter;
   display: flex;
+  font-weight: 600;
   width: 50%;
   font-size: 0.8rem;
   margin-bottom: 0.5rem;
@@ -625,7 +634,8 @@ ol li::before {
   content: "0" counter(my-awesome-counter);
   font-weight: bold;
   font-size: 12rem;
-  margin-right: 0.5rem;
+  margin-left: 50px;
+  /*margin-right: 50px;*/
   font-family: 'Abril Fatface', serif;
   line-height: 1;
 }

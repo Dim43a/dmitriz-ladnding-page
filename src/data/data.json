@@ -4,14 +4,14 @@
     "paragraph": "Get in touch and receive a professional logistics services offer at affordable prices today"
   },
   "About": {
-    "paragraph": "    The company VEO.PRO has many years of experience and a large number of satisfied customers who turn to us for services again and again. \n We not only guarantee safety and integrity, but also offer additional cargo insurance. One of our most important advantages is the speed of order fulfillment from the moment of receive your application."
+    "paragraph": "The company VEO.PRO has many years of experience and a large number of satisfied customers who turn to us for services again and again. \n We not only guarantee safety and integrity, but also offer additional cargo insurance. One of our most important advantages is the speed of order fulfillment from the moment of receive your application."
   },
   "Plan": [
     {
-      "text": "Fill the form or call us"
+      "text": "Delivery order processing"
     },
     {
-      "text": "Price calculation"
+      "text": "Approximate delivery price calculation"
     },
     {
       "text": "Application processing"
@@ -36,37 +36,43 @@
   },
   "Features": [
     {
-      "img":"images/feature-card-gifs/rocket.mp4",
+      "gif":"images/feature-card-gifs/time.mp4",
+      "img": "images/feature-card-images/time.png",
       "icon": "fa fa-bolt",
       "title": "Fast service",
       "text": "Get contact now and get professional service today"
     },
     {
-      "img":"images/feature-card-gifs/handshake.mp4",
-      "icon": "fa fa-thumbs-o-up",
-      "title": "Politeness and professionalism",
-      "text": "We care about our customers and their cargo with full responsibility"
-    },
-    {
-      "img":"images/feature-card-gifs/laborers.mp4",
+      "gif":"images/feature-card-gifs/loader.mp4",
+      "img": "images/feature-card-images/loader.png",
       "icon": "fa fa-diamond",
       "title": "Loaders included",
       "text": "Our experienced loaders will deliver you cargo from door to door "
     },
     {
-      "img":"images/feature-card-gifs/187-suitcase-outline.mp4",
+      "gif":"images/feature-card-gifs/cargo-insurance.mp4",
+      "img": "images/feature-card-images/cargo-insurance.png",
       "icon": "fa fa-diamond",
       "title": "Cargo insurance",
       "text": "Every cargo is covered by full insurance"
     },
     {
-      "img":"images/feature-card-gifs/repair-tools.mp4",
+      "gif":"images/feature-card-gifs/prof.mp4",
+      "img": "images/feature-card-images/prof.png",
+      "icon": "fa fa-thumbs-o-up",
+      "title": "Politeness and professionalism",
+      "text": "We care about our customers and their cargo with full responsibility"
+    },
+    {
+      "gif":"images/feature-card-gifs/tools.mp4",
+      "img": "images/feature-card-images/tools.png",
       "icon": "fa fa-diamond",
       "title": "Small furniture installation",
       "text": "Opportunity to order furniture unpacking and installation"
     },
     {
-      "img":"images/feature-card-gifs/shipping.mp4",
+      "gif":"images/feature-card-gifs/box.mp4",
+      "img": "images/feature-card-images/box.png",
       "icon": "fa fa-diamond",
       "title": "Packing",
       "text": "We will prepare you goods or fragile cargo before delivery"

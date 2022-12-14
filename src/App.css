@@ -20,6 +20,17 @@
   .workflow-container{
     width: 80%;
     padding-left: 50px;
+    padding-top: 50px;
+  }
+
+  ol li::before {
+    content: "0" counter(my-awesome-counter);
+    font-weight: bold;
+    font-size: 12rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Abril Fatface', serif;
+    line-height: 1;
   }
 
   #menu.navbar-default .navbar-nav .action-button {

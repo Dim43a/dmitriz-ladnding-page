@@ -14,15 +14,17 @@ export const Features = (props) => {
                                 <div className="feature-card">
                                     {' '}
                                     <HoverVideoPlayer
-                                        videoSrc={d.img}
+                                        videoSrc={d.gif}
                                         loadingOverlay={
                                             <div className="loading-overlay">
                                                 <div className="loading-spinner" />
                                             </div>
                                         }
-                                    />
+                                        pausedOverlay={<img src={d.img}/>}
+
+                                        />
                                     <div className="feature-card-text">
-                                        <h3 className="blja2">{d.title}</h3>
+                                        <h3 className="feature-header">{d.title}</h3>
                                         <p className="blja">{d.text}</p>
                                     </div>
                                 </div>
