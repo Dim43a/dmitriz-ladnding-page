@@ -20,7 +20,6 @@ export const Features = (props) => {
                                                 <div className="loading-spinner" />
                                             </div>
                                         }
-                                        pausedOverlay={<img src={d.img}/>}
 
                                         />
                                     <div className="feature-card-text">
