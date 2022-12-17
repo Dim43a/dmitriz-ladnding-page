@@ -21,6 +21,7 @@ export const Features = (props) => {
                                                 <div className="loading-spinner" />
                                             </div>
                                         }
+                                        controls={true}
                                         preload="auto"
                                         muted={true}
                                         typeof="video/mp4"
