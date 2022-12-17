@@ -2,7 +2,7 @@
 export const Workflow = (props) => {
     return (
         <div id='workflow'>
-            <h2>Work Flow</h2>
+            <h2>How to get service ?</h2>
             <div className="workflow-container">
                 <div className='container'>
                     <div className='row'>

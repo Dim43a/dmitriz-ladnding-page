@@ -18,7 +18,7 @@ export const Features = (props) => {
                                         videoSrc={d.gif}
                                         pausedOverlay={
                                             <div className="loading-overlay">
-                                                <div className="loading-spinner" />
+                                                <div className="loading-spinner"/>
                                             </div>
                                         }
                                         preload="auto"
@@ -26,10 +26,10 @@ export const Features = (props) => {
                                         typeof="video/mp4"
                                         volume={0}
                                         loop={true}
-                                        />
+                                    />
                                     <div className="feature-card-text">
                                         <h3 className="feature-header">{d.title}</h3>
-                                        <p className="wrapped-text">{d.text}</p>
+                                        <h4 className="wrapped-text">{d.text}</h4>
                                     </div>
                                 </div>
                             </div>

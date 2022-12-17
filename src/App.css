@@ -32,6 +32,9 @@
   #workflow{
     margin: 0;
   }
+  .workflow-item{
+    padding-top: 50px;
+  }
 
   .workflow-container{
     width: 80%;

@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "Get what you want just on time",
+    "title": "Get logistic service just on time",
     "paragraph": "Get in touch and receive a professional logistics services offer at affordable prices today"
   },
   "About": {
@@ -8,22 +8,22 @@
   },
   "Plan": [
     {
-      "text": "Order processing"
+      "text": "Fill the form below or call to us"
     },
     {
-      "text": "Approximate delivery price calculation"
+      "text": "We calculate delivery price and date"
     },
     {
-      "text": "Application processing"
+      "text": "We wait approval from you about cargo or service"
     },
     {
-      "text": "Cargo delivery"
+      "text": "We are preparing your cargo for delivery"
     },
     {
-      "text": "Cargo receiving"
+      "text": "We process your order"
     },
     {
-      "text": "Client approval"
+      "text": "You confirm order delivery"
     }
   ],
   "Contact": {
