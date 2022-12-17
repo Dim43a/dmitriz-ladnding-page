@@ -21,10 +21,11 @@ export const Features = (props) => {
                                                 <div className="loading-spinner" />
                                             </div>
                                         }
-                                        preload="none"
+                                        preload="auto"
                                         muted={true}
                                         typeof="video/mp4"
                                         volume={0}
+                                        loop={true}
 
                                         />
                                     <div className="feature-card-text">
