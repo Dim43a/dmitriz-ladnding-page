@@ -15,7 +15,7 @@ export const Features = (props) => {
                                     {' '}
                                     <HoverVideoPlayer
                                         videoSrc={d.gif}
-                                        loadingOverlay={
+                                        pausedOverlay={
                                             <div className="loading-overlay">
                                                 <div className="loading-spinner" />
                                             </div>
