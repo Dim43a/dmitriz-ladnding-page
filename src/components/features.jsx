@@ -13,10 +13,6 @@ export const Features = (props) => {
                             <div key={`${d.title}-${i}`} className='col-md-4'>
                                 <div className="feature-card">
                                     {' '}
-                                    <img
-                                        className="dsdsd"
-                                        src={d.img}
-                                    />
                                     <HoverVideoPlayer
                                         style={{backgroundColor: 'white'}}
                                         videoSrc={d.gif}
