@@ -20,13 +20,10 @@ export const Features = (props) => {
                                                 <div className="loading-spinner" />
                                             </div>
                                         }
+                                        preload={"auto"}
                                         muted={true}
+                                        volume={0}
                                         />
-                                    <video
-                                        className="video-f"
-                                        src={d.gif}
-                                        muted={true}
-                                    ></video>
                                     <div className="feature-card-text">
                                         <h3 className="feature-header">{d.title}</h3>
                                         <p className="wrapped-text">{d.text}</p>
