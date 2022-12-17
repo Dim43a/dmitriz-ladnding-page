@@ -13,14 +13,19 @@ export const Features = (props) => {
                             <div key={`${d.title}-${i}`} className='col-md-4'>
                                 <div className="feature-card">
                                     {' '}
-                                    <div className="abs">
-
                                     <HoverVideoPlayer
+                                        style={{backgroundColor: 'white'}}
                                         videoSrc={d.gif}
+                                        pausedOverlay={
+                                            <div className="loading-overlay">
+                                                <div className="loading-spinner" />
+                                            </div>
+                                        }
+                                        preload="metadata"
                                         muted={true}
                                         volume={0}
+
                                         />
-                                    </div>
                                     <div className="feature-card-text">
                                         <h3 className="feature-header">{d.title}</h3>
                                         <p className="wrapped-text">{d.text}</p>
