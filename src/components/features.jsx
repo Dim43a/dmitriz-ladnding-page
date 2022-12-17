@@ -20,6 +20,7 @@ export const Features = (props) => {
                                                 <div className="loading-spinner" />
                                             </div>
                                         }
+                                        muted={true}
 
                                         />
                                     <div className="feature-card-text">
