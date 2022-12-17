@@ -21,8 +21,12 @@ export const Features = (props) => {
                                             </div>
                                         }
                                         muted={true}
-
                                         />
+                                    <video
+                                        className="video-f"
+                                        src={d.gif}
+                                        muted={true}
+                                    ></video>
                                     <div className="feature-card-text">
                                         <h3 className="feature-header">{d.title}</h3>
                                         <p className="wrapped-text">{d.text}</p>
