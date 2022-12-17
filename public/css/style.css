@@ -132,6 +132,10 @@ hr {
   display: none;
 }
 
+.abs{
+  position: absolute;
+}
+
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
   position: absolute;
