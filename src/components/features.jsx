@@ -13,6 +13,10 @@ export const Features = (props) => {
                             <div key={`${d.title}-${i}`} className='col-md-4'>
                                 <div className="feature-card">
                                     {' '}
+                                    <img
+                                        className="dsdsd"
+                                        src={d.img}
+                                    />
                                     <HoverVideoPlayer
                                         style={{backgroundColor: 'white'}}
                                         videoSrc={d.gif}
@@ -21,13 +25,11 @@ export const Features = (props) => {
                                                 <div className="loading-spinner" />
                                             </div>
                                         }
-                                        controls={true}
                                         preload="auto"
                                         muted={true}
                                         typeof="video/mp4"
                                         volume={0}
                                         loop={true}
-
                                         />
                                     <div className="feature-card-text">
                                         <h3 className="feature-header">{d.title}</h3>
